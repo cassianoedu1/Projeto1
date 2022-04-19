@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+
+.logical-thinking {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #00235C;
+}
+
+.logical-thinking article {
+    width: 630px;
+}
+
+.logical-thinking p {
+    width: 561px;
+    height: 160px;
+}
+
+.preparing-your-kids {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+    background-color: #116CFF;
+}
+
+.preparing-your-kids article {
+    width: 570px;
+    margin-right: 38px;
+}
+
+.preparing-your-kids p {
+    width: 526px;
+    height: 120px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    section {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    img {
+        width: 500px;
+    }
+
+    .logical-thinking article {
+        width: 498px;
+        text-align: center;
+    }
+
+    .logical-thinking h1 {
+        width: 483px;
+        height: 180px;
+        margin-top: 0px;
+    }
+
+    .logical-thinking p {
+        width: 483px;
+        height: 218px;
+    }
+
+    .preparing-your-kids {
+        flex-direction: column-reverse;
+    }
+
+    .preparing-your-kids article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 655px;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .preparing-your-kids h1 {
+        height: 180px;
+    }
+
+    .preparing-your-kids p {
+        margin: 0;
+        height: 202px;
+    }
+}
+section {
+    width: 1312px;
+    height: 620px;
+    left: 250px;
+    top: 1550px;
+}
+.title {
+    font-family: 'Inter';
+    font-style: 'bold';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    top: 1260px;
+    width: 185;
+    height: 50px;
+    left: 101px;
+    position: absolute;
+}
+.rodape {
+    position: absolute;
+    left: 900px;
+    top: 1800px;
+    width: 450px;
+    font-family: 'Inter';
+    font-style: 'regular';
+    font-weight: 200;
+    font-size: 21px;
+    line-height: 25.41px;
+    letter-spacing: 0.015em;
+    text-decoration-line: underline;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #116CFF;
+}
+.chat1 {
+    position: absolute;
+    width: 549px;
+    height: 189px;
+    left: 100px;
+    top: 1412px;
+}
+.chat2 {
+    position: absolute;
+    width: 543px;
+    height: 193px;
+    left: 100px;
+    top: 1621px;
+}
+.chat3 {
+    position: absolute;
+    width: 543px;
+    height: 189px;
+    left: 723px;
+    top: 1412px;
+}
+.chat4 {
+    position: absolute;
+    width: 543px;
+    height: 189px;
+    left: 723px;
+    top: 1621px;
+}
+.fundo {
+
+    width: 1300px;
+    height: 667.53px;
+    left: 300px;
+    top: 1112px;
+}

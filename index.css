@@ -78,7 +78,7 @@ a {
 
     margin-top: 55px;
     border-radius: 10px;
-    margin-left: 1400px;
+    margin-left: 1150px;
     color: #116CFF;
     font-size: 16px;
     font-family: 'Inter';
@@ -116,7 +116,7 @@ a {
     position: absolute;
     width: 632px;
     height: 386.5px;
-    left: 800px;
+    left: 650px;
     top: 160px;
 }
 
@@ -124,14 +124,14 @@ a {
     position: absolute;
     width: 263px;
     height: 60px;
-    left: 1250px;
+    left: 1040px;
     top: 165px;
 }
 
 .retangulo {
     position: absolute;
     top: 200px;
-    left: 920px;
+    left: 770px;
 
     width: 423px;
     height: 355px;
@@ -141,7 +141,7 @@ a {
     position: absolute;
     width: 34px;
     height: 32.76px;
-    left: 910px;
+    left: 760px;
     top: 185px;
 }
 
@@ -149,7 +149,7 @@ a {
     position: absolute;
     width: 34   px;
     height: 32.76px;
-    left: 1320px;
+    left: 1180px;
     top: 534px;
 }
 
@@ -157,7 +157,7 @@ a {
     position: absolute;
     width: 263px;
     height: 60px;
-    left: 790px;
+    left: 630px;
     top: 520px;
 }
 
@@ -214,7 +214,7 @@ a {
     background-color: #116CFF;
 }
 .title {
-    font-family: 'Inter';
+    font-family: Arial, Helvetica, sans-serif;
     font-style: 'bold';
     font-weight: 700;
     font-size: 36px;
@@ -224,11 +224,12 @@ a {
     height: 50px;
     left: 101px;
     position: absolute;
+    color: #116CFF;
 }
 .rodape {
     position: absolute;
     left: 900px;
-    top: 2400px;
+    top: 2800px;
     width: 450px;
     font-family: 'Inter';
     font-style: 'regular';
@@ -265,4 +266,374 @@ a {
     height: 189px;
     left: 723px;
     top: 2200px;
+}
+.tabela {
+    position: absolute;
+    width: 1400px;
+    height: 728px;
+    top: 2500px;
+    background: #116CFF;
+}
+
+.tabela h1 {
+    position: absolute;
+    width: 172px;
+    height: 50px;
+    left: 100px;
+    top: 75px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.tabela h2 {
+    position: absolute;
+    width: 288px;
+    height: 30px;
+    left: 24px;
+    top: -140px;
+}
+
+.superior {
+    position: absolute;
+    width: 1166px;
+    height: 150px;
+    left: 100px;
+    top: 195px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.table {
+    position: absolute;
+    width: 1166px;
+    height: 320px;
+    left: 0px;
+    top: 150px;
+    background: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #00235C;
+}
+
+.estrelasd {
+    position: relative;
+    width: 18px;
+    height: 20px;
+    left: 21px;
+    top: -62px;
+}
+
+.etiqueta {
+    position: absolute;
+    left: 540px;
+    top: 40px;
+}
+
+.timer {
+    position: absolute;
+    left: 740px;
+    top: 40px;
+}
+
+.pessoas {
+    position: absolute;
+    left: 540px;
+    top: 98px;
+}
+
+.not {
+    position: absolute;
+    left: 740px;
+    top: 100px;
+}
+
+.month {
+    position: absolute;
+    left: 570px;
+    top: 10px;
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #00235C;
+}
+
+.meet {
+    position: absolute;
+    left: 775px;
+    top: 12px;
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #00235C;
+}
+
+.kids {
+    position: absolute;
+    left: 575px;
+    top: 70px;
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #00235C;
+}
+
+.online {
+    position: absolute;
+    left: 775px;
+    top: 70px;
+    font-family: 'Inter';
+    font-size: 16px;
+    color: #00235C;
+}
+
+.button5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    width: 135px;
+    height: 50px;
+    left: 1015px;
+    top: 54px;
+    border-radius: 10px;
+    background-color: #116CFF;
+    border: none;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #116CFF;
+}
+
+.estrelaa {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 720px;
+    top: 378px;
+}
+
+.primeira {
+    position: relative;
+    width: 327px;
+    height: 65px;
+    left: 124px;
+    top: 340px;
+}
+
+.estrelab {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 720px;
+    top: 460px;
+}
+
+.valor {
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+    width: 67px;
+    height: 30px;
+    left: 1150px;
+    top: 350px;
+    color: #00235C;
+}
+
+.valor1 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+    height: 30px;
+    left: 1150px;
+    top: 430px;
+    color: #00235C;
+}
+
+.valor2 {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 1150px;
+    top: 500px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FF463A;
+}
+
+.estrelac {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 720px;
+    top: 540px;
+}
+.contactUs {
+    top: 3000px;
+    margin-top: 10%;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.contactUs h2 {
+    width: 600px;
+    text-align: center;
+}
+
+.enfeite1 {
+    position: absolute;
+    left: 400px
+}
+
+.enfeite2 {
+    margin-left: 650px;
+    margin-top: -50px
+}
+
+form {
+    width: 700px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form input[type="submit"] {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: #116CFF;
+}
+
+input {
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 1.5px;
+    border-color: #BCD6FF;
+}
+
+select {
+    width: 460px;
+    height: 50px;
+    border-radius: 10px;
+    border-width: 1.5px;
+    border-color: #BCD6FF;
+    font-family: 'Inter';
+}
+
+.contactUs button {
+    margin-top: 600px;
+    margin-left: -20px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    margin-left: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilização do footer */
+footer {
+    background-color: #00235C;
+    height: max-content;
+    display: block;
+}
+
+.fundoFooter {
+    position: absolute;
+    width: 363px;
+    height: 471px;
+}
+
+.logo2 {
+    margin-top: 100px;
+    position: absolute;
+    margin-left: -380px;
+}
+
+.footerInfo p {
+    position: absolute;
+}
+
+.address {
+    color: white;
+    margin-top: -200px;
+    margin-left: 90px;
+}
+
+.email {
+    color: white;
+    margin-top: -150px;
+    margin-left: 90px;
+}
+
+.logos {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 90px;
+    width: 200px;
+    justify-content: space-between;
+    display: flex;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 800px;
+    height: max-content;
+    margin-left: 90px;
+    color: white;
+}
+
+footer .links p {
+    margin: 0;
+    padding: 0px;
+    font-weight: 600;
+
+}
+
+.ativo {
+    color: #116CFF
+}
+
+form p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #00235c
 }

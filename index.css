@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
 body {
-    margin: 0;
+    margin: 0
 }
 
 section {
@@ -9,11 +7,16 @@ section {
 }
 
 h1 {
+    width: 522px;
+    height: 161px;
+    left: 0px;
+    top: 0px;
+
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 140%;
 }
 
 p {
@@ -24,7 +27,177 @@ p {
     line-height: 40px;
 }
 
+/*Pagina Home */
+.firstPage {
+    background-color: #116CFF;
+}
 
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 708px;
+    height: 39px;
+    left: 403px;
+    top: 40px;
+}
+
+a {
+    position: static;
+    width: 120px;
+    height: 19px;
+    left: 10px;
+    top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    width: 129.32px;
+    height: 37px;
+    left: 100px;
+    top: 60px;
+}
+
+.login {
+    width: 104px;
+    height: 39px;
+
+    margin-top: 55px;
+    border-radius: 10px;
+    margin-left: 1400px;
+    color: #116CFF;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.LearningCoding {
+    display: flex;
+    align-items: flex-start;
+
+    color: white;
+}
+
+.LearningCoding article {
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 70px
+}
+
+.LearningCoding p {
+    position: absolute;
+    width: 503px;
+    height: 64px;
+    left: 100px;
+    top: 381px;
+
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.dizzy {
+    position: absolute;
+    width: 632px;
+    height: 386.5px;
+    left: 800px;
+    top: 160px;
+}
+
+.amarelo {
+    position: absolute;
+    width: 263px;
+    height: 60px;
+    left: 1250px;
+    top: 165px;
+}
+
+.retangulo {
+    position: absolute;
+    top: 200px;
+    left: 920px;
+
+    width: 423px;
+    height: 355px;
+}
+
+.estrela1 {
+    position: absolute;
+    width: 34px;
+    height: 32.76px;
+    left: 910px;
+    top: 185px;
+}
+
+.estrela2 {
+    position: absolute;
+    width: 34   px;
+    height: 32.76px;
+    left: 1320px;
+    top: 534px;
+}
+
+.cinza {
+    position: absolute;
+    width: 263px;
+    height: 60px;
+    left: 790px;
+    top: 520px;
+}
+
+.Book {
+    position: absolute;
+    width: 263px;
+    height: 60px;
+    top: 500px;
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+
+    color: #116CFF;
+}
+
+.Learn {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    top: 500px;
+    background: #116CFF;
+    border-radius: 10px;
+    left: 410px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Inter';
+    font-style: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
 .logical-thinking {
     display: flex;
     align-items: center;
@@ -32,16 +205,6 @@ p {
 
     color: #00235C;
 }
-
-.logical-thinking article {
-    width: 630px;
-}
-
-.logical-thinking p {
-    width: 561px;
-    height: 160px;
-}
-
 .preparing-your-kids {
     display: flex;
     align-items: center;
@@ -50,82 +213,13 @@ p {
     color: #FFFFFF;
     background-color: #116CFF;
 }
-
-.preparing-your-kids article {
-    width: 570px;
-    margin-right: 38px;
-}
-
-.preparing-your-kids p {
-    width: 526px;
-    height: 120px;
-}
-
-
-@media screen and (max-width: 1200px) {
-    section {
-        flex-direction: column;
-        height: 100%;
-    }
-
-    img {
-        width: 500px;
-    }
-
-    .logical-thinking article {
-        width: 498px;
-        text-align: center;
-    }
-
-    .logical-thinking h1 {
-        width: 483px;
-        height: 180px;
-        margin-top: 0px;
-    }
-
-    .logical-thinking p {
-        width: 483px;
-        height: 218px;
-    }
-
-    .preparing-your-kids {
-        flex-direction: column-reverse;
-    }
-
-    .preparing-your-kids article {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        width: 655px;
-        text-align: center;
-        margin: 0;
-
-    }
-
-    .preparing-your-kids h1 {
-        height: 180px;
-    }
-
-    .preparing-your-kids p {
-        margin: 0;
-        height: 202px;
-    }
-}
-section {
-    width: 1312px;
-    height: 620px;
-    left: 250px;
-    top: 1550px;
-}
 .title {
     font-family: 'Inter';
     font-style: 'bold';
     font-weight: 700;
     font-size: 36px;
     line-height: 50px;
-    top: 1260px;
+    top: 1870px;
     width: 185;
     height: 50px;
     left: 101px;
@@ -134,7 +228,7 @@ section {
 .rodape {
     position: absolute;
     left: 900px;
-    top: 1800px;
+    top: 2400px;
     width: 450px;
     font-family: 'Inter';
     font-style: 'regular';
@@ -144,45 +238,31 @@ section {
     letter-spacing: 0.015em;
     text-decoration-line: underline;
 }
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    background-color: #116CFF;
-}
 .chat1 {
     position: absolute;
     width: 549px;
     height: 189px;
     left: 100px;
-    top: 1412px;
+    top: 2000px;
 }
 .chat2 {
     position: absolute;
     width: 543px;
     height: 193px;
     left: 100px;
-    top: 1621px;
+    top: 2200px;
 }
 .chat3 {
     position: absolute;
     width: 543px;
     height: 189px;
     left: 723px;
-    top: 1412px;
+    top: 2000px;
 }
 .chat4 {
     position: absolute;
     width: 543px;
     height: 189px;
     left: 723px;
-    top: 1621px;
-}
-.fundo {
-
-    width: 1300px;
-    height: 667.53px;
-    left: 300px;
-    top: 1112px;
+    top: 2200px;
 }
